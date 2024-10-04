@@ -1,0 +1,191 @@
+header {
+  width:120%;
+  height: 150px;
+  padding: 10px 102px;
+  display: flex;
+  justify-content: center; /* Align items to the right */
+  align-items: center;
+  position: relative;
+}
+
+
+header.fixed {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .fixed{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width:100%;
+  z-index:1000 ;
+}
+.logo-container {
+  position: absolute;
+  top:30px;
+  left: 0;
+  padding: 10px;
+}
+
+.logo {
+  width: 200px;
+  height: 50px;
+  padding:1px 5px;
+  margin: 10px;
+}
+
+/* header search */
+header .headerSearch {
+  width: 500px;
+  height: 35px;
+  border: 2px solid #3bb77e;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 110px; /* Push the search to the left */
+}
+
+header .headerSearch .selectDrop {
+  width: max-content;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+}
+
+header .headerSearch .selectDrop:after {
+  content: '';
+  width: 1px;
+  height: 25px;
+  background-color: #3bb77e;
+  position: absolute;
+  top: 3.2px;
+  right: -13px;
+}
+
+header .headerSearch .search {
+  width: 50%;
+  position: relative;
+  left: 23px;
+}
+
+header .headerSearch .search input {
+  width: 110%;
+  height: 20px;
+  border: 0px;
+  outline: none !important;
+  padding: 0px 15px;
+  font-size: 16px;
+}
+
+/* Location search box */
+header .countryWrapper {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+header .countryWrapper .selectDrop {
+  width: 200px !important;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  height: 35px;
+  padding: 3px 18px;
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: zoomIn 0.3s ease-in-out;
+  position: relative;
+}
+
+.countryWrapper .selectDrop .openSelect {
+  color: #3bb77e;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+header .headerSearch .search .searchIcon {
+  position: absolute;
+  top: 3.3px;
+  right: -110px;
+}
+
+/* header tabs */
+header .headerTabs {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+
+header .headerTabs li {
+  position: relative;
+  margin-right: 20px; 
+  display: flex;
+  align-items: center;
+  
+}
+
+/* header .headerTabs li:last-child {
+  margin-right: 1;
+} */
+
+header .headerTabs li span {
+  font-size: 20px;
+  cursor: pointer;
+  margin: 3.9px;
+}
+
+header .headerTabs li span.badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  height: 15px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  top: -6px;
+  margin-left: 7px;
+}
+
+.compare-img {
+  width: 25px;
+  margin-right: 9px;
+}
+
+/* account dropdown */
+.Account-dropdown {
+  position: absolute;
+  top: 40px;
+  right: -70px;
+  width: 200px;
+  height: auto;
+  background: #fff;
+  box-shadow: 0 3px 6px rgb(0 0 0/20%);
+  padding: 10px 0px;
+}
+
+.Account-dropdown li {
+  width: 100% !important;
+  list-style: none;
+  margin: 0px !important;
+}
+
+.Account-dropdown li button {
+  width: 100% !important;
+  text-align: left !important;
+  justify-content: flex-start !important;
+  color: black !important;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 15px !important;
+}

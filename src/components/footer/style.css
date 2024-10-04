@@ -1,0 +1,71 @@
+.footerWrapper{
+    padding: 45px 0px;
+    width: 100%;
+}
+.footerWrapper .footerBoxes .box{ 
+    background: #F4F6FA;
+    padding: 20px 20px;
+    border-radius: 15px;
+}
+.footerWrapper .footerBoxes .box .info{ 
+   padding-left: 25px;
+    
+}
+.footerWrapper .footerBoxes .box img{
+    position: relative;
+    transition: all 0.3 ease-in-out;
+}
+.footerWrapper .footerBoxes .box :hover img{
+  transform: translateY(-5px);
+}
+.footerWrapper .footerBoxes .box .info p{
+    margin-bottom: 0px;
+    font-size: 16px;
+    opacity: 0.8;
+}
+.footerWrapper .footerBoxes .box .info h4{
+    font-size: 24px;
+    font-weight:600;
+}
+
+
+
+
+
+footer{
+    padding: 60px 0px;
+}
+footer p,footer a{
+    font-size: 15px;
+}
+footer .part1 svg{
+    color: #3bb77e;
+}
+
+footer .part2 ul li {
+ list-style: none;
+ margin-bottom: 7px;
+}
+footer .part2 h4{
+    margin-top: 20px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+footer .part2 ul li a{
+    color: black;
+    opacity: 0.8;
+    font-size: 500;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+footer .part2 ul li a:hover{
+    text-decoration:none ;
+    color: #3bb77e;
+}
+footer .lastStrip{
+    padding: 15px 0px;
+}
+.phNo svg{ font-size: 35px !important; opacity: 0.8; }
+ .phNo h3{ font-size:25px !important; line-height: 35px !important;color: #3bb77e;font-weight: 600;}
+ .phNo p{ font-size: 13px !important; opacity: 0.8;}

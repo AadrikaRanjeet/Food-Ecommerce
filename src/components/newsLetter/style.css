@@ -1,0 +1,32 @@
+
+ .newsLetterBanner{
+    width: 600px;
+    height: 60px;
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    z-index:10;
+ }
+ 
+.newsLetterBanner input{
+   width: 70%;
+   height:80%;
+   background: #fff;
+   border-radius:30px;
+   border: 0;
+   outline: none !important;
+   padding-left: 30px;
+   font-size: 20px;
+   padding-right: 150px;
+ }
+  .newsLetterBanner button{
+   padding: 10px 30px !important;
+   border-radius: 30px !important;
+   background-color: #3bb77e;
+   color: #fff !important;
+   position: absolute;
+   top: 0px;
+   right:30%;
+   font-size: 16px;
+   font-weight: 100;
+ }

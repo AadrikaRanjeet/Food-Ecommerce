@@ -1,0 +1,16 @@
+.bannerSelection{
+    padding: 25px 0px;
+  
+}
+.bannerSelection .banner-image{
+    width: 100%;
+    height: auto;
+}
+.bannerSelection .box{
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.bannerSelection .box:hover{
+   transform: scale(1.1);
+}

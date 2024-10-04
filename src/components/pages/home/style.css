@@ -1,0 +1,81 @@
+.homeProducts{
+    padding: 25px 0px;
+}
+.homeProducts .list {
+    margin-left: auto;
+    cursor: pointer;
+}
+.filterTab Li{
+    margin-left: 20px;
+}
+.filterTab Li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    font-weight: 600;
+}
+.filterTab Li:hover a{
+    color: #3bb77e;
+    top:-10px;
+}
+.homeProducts .productsRow{
+   display: flex;
+}
+.homeProductsRow2 .prodSlider .item{
+    padding-right: 25px !important;
+    padding: 15px 10px;
+}
+.homeProductsRow2 .prodSlider .slick-current .productThumb:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.topProductionSection{
+    padding: 35px 0px;
+}
+.topProductionSection .box h3{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+
+.newsLetterSection{
+    width: 100%;
+    height: auto;
+}
+.newsLetterSection .box{
+    background: url(../../../assets/images/bg.png);
+    width: 100%;
+    height: auto;
+    padding: 80px 80px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.newsLetterSection .box .info {
+    width: 60%;
+
+}
+.newsLetterSection .box .info h2{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70px;
+    opacity: 0.8;
+}
+.newsLetterSection .box .info p{
+    font-size: 20px;
+    opacity: 0.8;
+}
+.newsLetterSection .box .img{
+    width:40%;
+    
+}
+.newsLetterSection .box .img img{
+    position: relative;
+    top: 80px;
+}
+.newsLetterSection .box .newsLetterBanner{
+    position: relative !important;
+    left:0px !important;
+    bottom: inherit !important;
+}
